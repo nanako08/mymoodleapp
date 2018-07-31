@@ -57,8 +57,6 @@
         <param name="ios-package" value="CDVStatusBar" onload="true"/>
     </feature>
         
-    <framework src="com.android.support:support-v4:27.0.1" />
-
     <preference name="AndroidPersistentFileLocation"    value="Compatibility" />
     <preference name="iosPersistentFileLocation"        value="Compatibility" />
 
@@ -118,6 +116,8 @@
         <splash src="resources/ios/splash/Default-Landscape@~ipadpro.png" width="2732" height="2048"/>
         <splash src="resources/ios/splash/Default-Portrait@~ipadpro.png" width="2048" height="2732"/>
     </platform>
+       
+    <gap:framework src="com.android.support:support-v4:27.0.1" />
 
     <gap:plugin name="cordova-plugin-camera" source="npm" version="2.4.1" />
     <gap:plugin name="cordova-plugin-media-capture" source="npm" version="1.4.3">
@@ -137,7 +137,7 @@
     <gap:plugin name="cordova-universal-clipboard" source="npm" version="0.1.0" />
     <gap:plugin name="nl.kingsquare.cordova.background-audio" source="npm" version="1.0.1" />
 
-    <gap:plugin name="phonegap-plugin-push" source="npm" version="1.9.2">
+    <gap:plugin name="phonegap-plugin-push" source="npm" version="2.2.0">
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-customurlscheme" source="npm" version="4.3.0">
